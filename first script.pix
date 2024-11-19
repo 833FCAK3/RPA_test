@@ -4388,7 +4388,7 @@
           </PropertyValue>
         </PropertyValues>
         <SelectedOptionId>1</SelectedOptionId>
-        <EnableStatus>true</EnableStatus>
+        <EnableStatus>false</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
         <Text>Кликнуть Submit</Text>
@@ -4423,7 +4423,7 @@
           <PropertyValue z:Id="i509">
             <PropertyName>Keys</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>table.Columns.</_expression>
+            <_expression>table.Columns[1].ToString()</_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
